@@ -1,0 +1,83 @@
+.container{
+    max-width: 1250px !important;
+}
+.fixed-top{
+    width: 100%;
+    z-index: 999;
+    background-color: #fff;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    padding: 10px;
+    background: linear-gradient(180deg, #00A691 0%, #007465 100%);
+    p{
+        color: #ffff;
+        font-size: 15px;
+        margin: 0%;
+        text-align: center;
+        margin-top: -2.5px;
+    }
+    div{
+        width: 30px; 
+        height: 2px;
+        background-color: #fff;
+    }
+}
+.nav-item > a{
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+.nav-item > a > button{
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: aliceblue;
+    background-color: #0E7B72;
+    border: 1px solid #0E7B72;
+    transition: all .3s ease;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+.nav-item > a > button:hover{
+    color: black;
+    background-color: aliceblue;
+    border: 1px solid #0E7B72;
+}
+
+
+.ActivePath{
+    color: #007465 !important;
+    position: relative;
+}
+/* .ActivePath::after{
+    position: absolute;
+    content: "";
+    top: 80%;
+    left: 0%;
+    height: 1px;
+    width: 100%;
+    background-color: #0E7B72;
+} */
+
+
+
+@media (max-width: 450px){
+    .navbar-toggler{
+        margin-right: 20px;
+    }
+}

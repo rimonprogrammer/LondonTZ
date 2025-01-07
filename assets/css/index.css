@@ -1,0 +1,559 @@
+.home{
+    margin-top: 50px;
+    height: 550px;
+    background: linear-gradient(106.32deg, #ECFEFC 33.02%, #5A9E96 94.23%);
+}
+.homeTopContent{
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    > div{
+        width: 50%;
+        > h1{
+            color: #1E1E1E;
+            font-family: Public Sans;
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 80px;
+        }
+        > p{
+            font-size: 16px;
+            font-weight: 400;
+            color: #646464;
+            margin-top: 20px;
+        }
+        > button{
+            color: #fff;
+            border: none;
+            padding: 8px 12px;
+            background: #007465;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+        }
+    }
+    .homeTopImage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .homeTopMainImage{
+            position: relative;
+            width: 450px;
+            z-index: 99;
+        }
+        .homeTopImage1,
+        .homeTopImage2,
+        .homeTopImage3{
+            position: absolute;
+            height: 130px;
+        }
+        .homeTopImage1{
+            margin-top: -50px;
+            margin-left: -50px;
+        }
+        .homeTopImage2{
+            width: 300px;
+            margin-left: -50px;
+            margin-top: 220px;
+        }
+        .homeTopImage3{
+            margin-top: 230px;
+            margin-left: -70px;
+        }
+    }
+}
+
+/* Who We Are section start */
+.WhoWeAre{
+    margin: 80px 0 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    > .whoWeAreTitle{
+        max-width: 900px;
+        text-align: center;
+        > h2{
+            font-size: 40px;
+        }
+        > p{
+            color: #646464;
+            font-size: 16px;
+        }
+    }
+}
+.carousel{
+    margin-bottom: 130px;
+    .carousel-inner{
+        /* height: 00px; */
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+    }
+}
+.carousel-item{
+    > img{
+        position: relative;
+    }
+    > p{
+        margin-top: 35%;
+        margin-left: 30px;
+        color: #ffffff;
+        position: absolute;
+        font-size: 30px;
+        z-index: 9;
+    }
+}
+.carousel-indicators{
+    top: 70%;
+    margin-top: 170px !important;
+    gap: 10px;
+    > button{
+        border: none !important;
+        background: #00746533 !important;
+        width: 10.44px !important;
+        height: 10.44px !important;
+        border-radius: 100% !important;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -ms-border-radius: 100%;
+        -o-border-radius: 100%;
+}> button.active{
+        background: #007465 !important;
+        width: 15.66px !important;
+        height: 15.66px !important;
+        margin-top: -2px;
+        border-radius: 100px !important;
+        -webkit-border-radius: 100px !important;
+        -moz-border-radius: 100px !important;
+        -ms-border-radius: 100px !important;
+        -o-border-radius: 100px !important;
+    }
+}
+/* Who We Are section start */
+
+/* some services start */
+.SomeServicesIntro{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    > h3{
+        font-size: 40px;
+        max-width: 800px;
+    }
+    > p{
+        max-width: 900px;
+        color: #646464;
+        font-size: 16px;
+    }
+}
+.SomeServicesImg{
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    > div{
+        width: 350px;
+        height: 380px;
+        z-index: 99;
+        background-color: #fff;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        > div{
+            width: 350px;
+            height: 220px;
+            overflow: hidden;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            > img{
+                width: 100%;
+                height: 100%;
+                cursor: pointer;
+                transition: all .3s ease;
+                transform: scale(1);
+                -webkit-transform: scale(1);
+                -moz-transform: scale(1);
+                -ms-transform: scale(1);
+                -o-transform: scale(1);
+                -webkit-transition: all .3s ease;
+                -moz-transition: all .3s ease;
+                -ms-transition: all .3s ease;
+                -o-transition: all .3s ease;
+            }
+            > img:hover{
+                transform: scale(1.1);
+                -webkit-transform: scale(1.1);
+                -moz-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+                -o-transform: scale(1.1);
+            }
+        }
+        .SomeServiceTitle{
+            display: flex;
+            margin-top: -30px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            > h5{
+                text-align: center;
+                text-transform: uppercase;
+            }
+            > ul > li{
+                font-size: 13px;
+            }
+        }
+    }
+}
+.someServiceBG{
+    height: 300px;
+    width: 100%;
+    margin-top: -160px;
+    background: linear-gradient(4.97deg, #01A08B 1.14%, #017465 105.08%);
+}
+/* some services end */
+ 
+/* our expert trainer section start */
+.trainer{
+    padding: 150px 0 150px 0;
+    background: linear-gradient(94.97deg, #cefaf4 1.14%, #ffffff 105.08%);
+}
+.expertTrainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    > div{
+        width: 50%;
+        text-align: end;
+        > h4{
+            font-size: 40px;
+            color: #1E1E1E;
+        }
+        > p{
+            color: #646464;
+            margin-top: 20px;
+        }
+        > img{
+            width: 500px;
+        }
+    }
+}
+/* our expert trainer section end */
+
+/* free mock test start */
+.FreeMockTest{
+    display: flex;
+    margin: 100px 0 100px 0;
+    > div{
+        width: 50%;
+        height: 400px;
+        background-color: #017465;
+        > img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .FreeMockTestImg{
+        overflow: hidden;
+        border-bottom-left-radius: 100px;
+    }
+    .FreeMockTestBody{
+        color:  #fff;
+        overflow: hidden;
+        border-top-right-radius: 100px;
+        padding: 50px 0 0 50px;
+        > h5{
+            font-size: 40px;
+        }
+        > p{
+            margin-top: 10px;
+            max-width: 500px;
+        }
+        > button{
+            border: none;
+            margin-top: 10px;
+            font-weight: 500;
+            color: #007465;
+            padding: 10px 12px;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+        }
+    }
+
+}
+/* free mock test end */
+
+
+/* enjoy the app section 1 */
+.enjoyApp{
+    z-index: 99 !important;
+    overflow: hidden !important;
+    background: #EFF2F6;
+}
+.enjoyApp2{
+    margin: 100px 0 100px 0;
+}
+.enjoyAppBody{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0 0px 0;
+    justify-content: space-between;
+    > div{
+        > h6{
+            font-size: 40px;
+        }
+        > ul{
+            padding: 0%;
+            margin-top: 40px;
+            > li {
+                list-style: none;
+                margin-top: 10px;
+               > i{
+                padding: 5px;
+                font-size: 12px;
+                color: #fff;
+                background: #00C242;
+                border-radius: 100px;
+                -webkit-border-radius: 100px;
+                -moz-border-radius: 100px;
+                -ms-border-radius: 100px;
+                -o-border-radius: 100px;
+               }
+            }
+        }
+        .downloadInfo{
+            display: flex;
+            margin-top: 40px;
+            .downloadApp{
+                > p{
+                    margin: 0%;
+                    color: #161616;
+                    font-size: 17px;
+                    font-weight: 700;
+                }
+                > span{
+                    color: #757474;
+                    font-weight: 450;
+                }
+            }
+            > div:first-child{
+                width: 150px;
+                border-right: 1px solid rgb(148, 148, 147);
+            }
+            > div:last-child{
+                margin-left: 50px;
+            }
+        }
+    }
+    .ScanToDownload{
+        text-align: center;
+        > p{
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+    .downloadAppLogo{
+        text-align: center;
+        font-weight: 500;
+        > div{
+            gap: 20px;
+            display: flex;
+        }
+    }
+    .appMobileFrame1{
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 30px;
+        width: 230px;
+    }
+    .appMobileFrame2{
+        position: relative;
+        width: 300px;
+    }
+}
+.appMobileFrame2{
+    > .appMobileFrame1{
+        position: relative;
+    }
+    > .appMobileFrame2{
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 50px;
+        width: 200px;
+    }
+}
+/* enjoy the app section 1 */
+
+
+/* ======== responsive section start ========= */
+@media (max-width: 1192px){
+    .home{
+        margin-top: 0px;
+        min-height: 850px;
+    }
+    .homeTopContent{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        > div{
+            width: 90%;
+        }
+    }
+    .homeTopImage{
+        margin-top: 80px;
+    }
+    .carousel-item> p{
+        font-size: 20px;
+    }
+    
+    .expertTrainer > div > img{
+        width: 460px;
+    }
+    .SomeServicesImg{
+        gap: 20px;
+        > div{
+            width: 300px;
+            height: 350px;
+            > div{
+                width: 300px;
+                height: 190px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 992px){
+    .SomeServicesImg{
+        > div{
+            color: #fff;
+            margin-bottom: 100px;
+            background-color: #01A08B;
+        }
+    }
+    .someServiceBG{
+       display: none;
+    }
+    .expertTrainer{
+        flex-direction: column;
+        > div{
+            width: 70%;
+            text-align: start;
+            > img{
+                width: 100%;
+            }
+        }
+    }
+    .FreeMockTest{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        > div{
+            width: 70%;
+            height: 400px;
+        }
+        .FreeMockTestImg{
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+        }
+        .FreeMockTestBody{
+            color:  #fff;
+            margin-top: 20px;
+            border-radius: 5px;
+            padding: 50px 0 0 50px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            > h5{
+                font-size: 30px;
+            }
+        }
+    }
+    .enjoyAppBody{
+        align-items: start;
+        > div{
+            margin-top: 40px;
+            > h6{
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px){
+    .homeTopContent > div{
+        > h1{
+            font-size: 30px;
+        }
+        > p{
+            font-size: 14px;
+        }
+        > button{
+            padding: 8px 10px;
+            font-size: 15px;
+        }
+    }
+    .whoWeAreTitle > h2,
+    .SomeServicesIntro > h3{
+        font-size: 30px !important;
+    }
+    .homeTopImage1,
+    .homeTopImage2,
+    .homeTopImage3{
+        display: none;
+    } 
+    .carousel-item> p{
+        font-size: 17px;
+        margin-left: 10px;
+    }  
+    .carousel-indicators{
+        top: 45%;
+    }
+    .expertTrainer > div{
+        width: 100%;
+        > h4{
+            font-size: 30px;
+        }
+    }
+    .FreeMockTest{
+        margin-top: 0;
+        > div{
+            width: 100%;
+        }
+        .FreeMockTestImg{
+            height: 50%;
+        }
+    }
+}
+@media (max-width: 500px){
+    .homeTopImage{
+        .homeTopMainImage{
+            width: 100% !important;
+        }
+    }
+    .carousel-indicators{
+        top: 15% !important;
+    }
+}
+/* ======== responsive section end ========= */

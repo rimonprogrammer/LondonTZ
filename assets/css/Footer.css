@@ -1,0 +1,68 @@
+footer{
+    color: rgb(255, 255, 255, .8);
+    background-color: #009985;
+}
+.footer-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+    > div > h5{
+        font-weight: 600;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+.logo-section{
+    width: 400px !important;
+}
+.logo-section > h3{
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
+}
+.footer-section > div > ul{
+    padding: 0%;
+}
+.footer-section > div > ul > li{
+    list-style: none;
+    padding-top: 8px;
+}
+.DOWNLOAD-APP > ul > li > img{
+    margin-top: 10px;
+    width: 150px;
+    cursor: pointer;
+}
+.Contact{
+    text-align: end;
+}
+.Contact > ul > p{
+    font-size: 18px;
+    padding-bottom: 10px;
+    margin: 0%;
+}
+.Contact > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    > a{
+        text-decoration: none;
+        > img{
+            height: 30px;
+            width: 30px;
+        }
+    }
+}
+
+
+/* ======== responsive section start ========= */
+@media (max-width: 1000px){
+    .Contact{
+        text-align: start;
+    }
+}
+@media (max-width: 360px){
+    .DOWNLOAD-APP > ul {
+        gap: 10px;
+        display: flex;
+    }
+}
+/* ======== responsive section end ========= */

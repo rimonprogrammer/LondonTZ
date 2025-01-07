@@ -1,0 +1,225 @@
+.authentication{
+    display: flex;
+    margin-top: 65px;
+    padding: 50px 0 50px 0;
+    align-items: center;
+    justify-content: center;
+}
+.authentication > form{
+    width: 580px;
+    color: #191C1F;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    span{
+        color: #0E7B72;
+    }
+}
+.form-header > a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:sans-serif;
+}
+/* form header */
+.authNavigate{
+    width: 50%;
+    display: flex;
+    line-height: 60px;
+    justify-content: center;
+    color: rgb(202, 202, 202);
+    border-bottom: 3px solid rgb(227, 227, 250);
+}
+.ActiveAuth{
+    color: rgb(36, 33, 33);
+    justify-content: center;
+    border-bottom: 3px solid  #0E7B72;
+}
+/* form header */
+.form-body{
+    label,
+    .password > label{
+        font-weight: 500;
+    }
+    input,
+    .password > input{
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    margin-top: 3px;
+    border-radius: 5px;
+    position: relative;
+    border: 1px solid rgb(229, 229, 226);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    }
+}
+
+.fa-eye-slash{
+    margin-top: 15px;
+    margin-left: -30px;
+    position: absolute;
+    cursor: pointer;
+    color:#191C1F;
+}
+.checkbox{
+    input{
+        margin-right: 10px;
+        width: 5%;
+        border-radius: 5px;
+        cursor: pointer;
+        accent-color: #0E7B72;
+    }
+}
+.SignUp-Btn{
+    width: 100%;
+    border: none;
+    margin-top: 20px;
+    color: white;
+    padding: 12px;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: #0E7B72;
+    border: 1px solid #0E7B72;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+.SignUp-Btn:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(191, 191, 191);
+}
+.hrArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0 15px 0;
+    p{
+        width: 100%;
+        height: 1px;
+        margin: 0%;
+        background-color: #c3c4c4;
+    }
+    span{
+        margin: 5px;
+    }
+}
+.SignUpGoogle-Btn{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border: 1px solid rgb(202, 202, 202);
+    img{
+        width: 20px;
+        height: 20px;
+    }
+    p{
+        margin: 0%;
+        min-width: 400px;
+    }
+}
+.HaveAccount{
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: -1px;
+    a{
+        color: #0E7B72;
+    }
+}
+
+
+
+
+/* forget Password */
+.forgetPassHead{
+    padding: 30px;
+}
+.forgetPassBody{
+    /* border: 1px solid; */
+    margin-top: -20px !important;
+}
+
+
+
+/* verify email address */
+.forgetPassHead{
+    h4{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+        text-align: center;
+    }
+    p{
+        color: #5F6C72;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+        padding-top: 10px;
+    }
+}
+
+.resendCode{
+    color: #0E7B72;
+    opacity: .3;
+}
+
+
+
+
+
+/* ======== responsive section start ========= */
+@media (max-width: 600px){
+    .authentication > form{
+        width: 90%;
+    }
+    .form-header > a{
+        font-size: 18px;
+    }
+    .form-body{
+        label,
+        .password > label{
+            font-size: 16px;
+        }
+        input,
+        .password > input{
+            font-size: 15px;
+        }
+    }
+    .fa-eye-slash,
+    .ForgetPass{
+        font-size: 15px;
+    }
+    .SignUp-Btn{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .checkbox{
+        input{
+            width: 30px !important;
+        }
+    }
+    .SignUpGoogle-Btn > p{
+        min-width: 200px;
+    }
+}
+/* ======== responsive section end ========= */

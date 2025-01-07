@@ -1,0 +1,115 @@
+.contact{
+    padding: 100px 0 100px 0;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    > div{
+        width: 50%;
+    }
+}
+.contactInfo{
+    > p{
+        color: #505056;
+        max-width: 400px;
+        margin-top: 30px;
+        font-weight: 500;
+    }
+    ul{
+        margin-top: 20px;
+        padding: 0%;
+        > li{
+            list-style: none;
+            margin-top: 15px;
+            color: #505056;
+            display: flex;
+            font-weight: 500;
+            align-items: center;
+            > p{
+                margin: 0%;
+            }
+            > i{
+                color: #007465;
+                margin-right: 15px;
+            }
+        }
+    }
+}
+.contact > div > form{
+    padding: 30px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    > div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        > input{
+            width: 47%;
+            padding: 8px;
+            outline: none;
+            margin-top: 10px;
+            background: #F5F5F5;
+            border: 1px solid rgb(142, 142, 142);
+            border-radius: 8px;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -ms-border-radius: 8px;
+            -o-border-radius: 8px;
+}
+    }
+    > textarea,
+    > input{
+        width: 100%;
+        margin-top: 20px;
+        padding: 8px;
+        outline: none;
+        background: #F5F5F5;
+        border: 1px solid rgb(142, 142, 142);
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+    }
+    > textarea{
+        height: 130px;
+        color: #505056;
+    }
+    > button{
+        width: 100%;
+        padding: 10px;
+        color: #fff;
+        background: #007465;
+        border: none;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+    }
+}
+
+
+/* ======== responsive section start ========= */
+@media (max-width: 768px){
+    .contact{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        > div{
+            width: 90%;
+            > form{
+                margin-top: 30px;
+            }
+        }
+    }
+}
+/* ======== responsive section end ========= */

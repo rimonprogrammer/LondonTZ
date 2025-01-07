@@ -1,0 +1,250 @@
+.container{
+    max-width: 1200px !important;
+}
+.mock-header{
+    display: flex;
+    padding: 8px 0 8px 0;
+    justify-content: space-between;
+    > div{
+        display: flex;
+        text-align: end;
+        justify-content: center;
+        > img{
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+        }
+        > div > p{
+            margin: 0%;
+            padding-right: 10px;
+        }
+    }
+}
+.dropdown-menu{
+    padding: 35px !important;
+    margin-top: 20px !important;
+    margin-left: -110px !important;
+    background-color: #e1e8e7 !important;
+    
+    > button{
+        border: none;
+        color: #fff;
+        padding: 8px 15px;
+        background-color: #007465;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+}
+.SERU-Mock_top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+.prevNextBtn > button,
+.SERU-Mock_top > button{
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    margin-top: 20px;
+    background-color: #007465;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.SERU-Mock_body{
+    margin-top: 80px;
+    > i{
+        font-weight: 500;
+        color: #1E1E1E;
+    }
+    > .MCQTime {
+        display: flex;
+        justify-content: space-between;
+        > button{
+            color: #007465;
+            padding: 5px 10px;
+            background: #D9EAE8;
+            border: none;
+            font-size: 12px;
+            font-weight: 500;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+        }
+    }
+    > p{
+        margin-top: 20px;
+        font-weight: 550;
+    }
+    > div {
+        letter-spacing: 1px;
+        line-height: 30px;
+        color: #646464;
+        > select{
+            color: #707070;
+            outline: none;
+            border: 1px solid rgb(199, 199, 197);
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+        }
+    }
+    > ul {
+        padding: 0%;
+        > li{
+            list-style: none;
+            display: flex;
+            padding: 10px;
+            margin-top: 15px;
+            align-items: center;
+            justify-content: start;
+            border: 1px solid #dad6d6;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            > i{
+                margin-right: 15px;
+                color: #646464;
+                cursor: pointer;
+            }
+            > p{
+                margin: 0%;
+                color: #646464;
+            }
+        }
+    }
+}
+.selected-circle{
+    background: #D9EAE8;
+    color: #007465 !important;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.prevNextBtn{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+
+.SERU_Mock_Complete{
+    gap: 30px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    > div{
+        height: 400px;
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        > h4{
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        > .timeTaken {
+            gap: 20px;
+            display: flex;
+            margin-top: 20px;
+            align-items: center;
+            justify-content: center;
+            >p{
+                margin: 0%;
+            }
+            > button{
+                color: #007465;
+                padding: 5px 10px;
+                background: #D9EAE8;
+                border: none;
+                font-size: 12px;
+                font-weight: 500;
+                border-radius: 5px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                -o-border-radius: 5px;
+            }
+        }
+    }
+}
+
+.mock-result{
+    .mcq-number{
+        padding: 25px;
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: 20px;
+        background-color: #007465;
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+    }
+    .Performance{
+        display: flex;
+        margin-top: 30px;
+        align-items: center;
+        > p {
+            margin: 0%;
+            padding: 4px 10px;
+            padding-right: 35px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border: 1px solid rgb(179, 179, 179);
+        }
+        > button{
+            color: #fff;
+            border: none;
+            padding: 5px 15px;
+            margin-left: -3px;
+            background-color: #E2425C;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    }
+    > p{
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .viewQuestion {
+        display: flex;
+        gap: 20px;
+        > button{
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            margin-top: 20px;
+            background-color: #007465;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+        }
+    }
+}
