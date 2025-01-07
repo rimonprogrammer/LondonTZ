@@ -21,6 +21,8 @@ Live: https://theltz.com/
 
 <h4>Project screenshot</h4>
 <p>LondonTZ</p>
-<img src="[https://rimonprogrammer.netlify.app/public/shopland-1.jpg](https://media.licdn.com/dms/image/v2/D5622AQGoQ26CwMtmTA/feedshare-shrink_1280/B56ZRBP_GIHQAk-/0/1736261498328?e=1739404800&v=beta&t=6JQcV7zMkJgDBap_ARyC3SzxgYJtUmVpl1pbYDnv6j0)" alt="shopland website picture" >
-<img src="[https://rimonprogrammer.netlify.app/public/shopland-2.jpg](https://media.licdn.com/dms/image/v2/D5622AQERGwbjrzv5Pg/feedshare-shrink_480/B56ZRBP_L2H0AY-/0/1736261498554?e=1739404800&v=beta&t=e6HSK85kd4g-eGWoCIPEyVDYojWk5s_GpzGpCcypP-A)" alt="shopland website picture" >
+
+![I am GitHub Readme Generator's creator](https://scontent.fdac175-1.fna.fbcdn.net/v/t39.30808-6/473029673_569064786088844_2253157929642097221_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=eBAj3AzfFTgQ7kNvgFbUUhx&_nc_zt=23&_nc_ht=scontent.fdac175-1.fna&_nc_gid=AIDYZkGeGfyokUJsKsmFcX5&oh=00_AYCYjvLnrYQw9395QHb_dn87dbRlVyn3-O4ww0r1f0Uc0w&oe=67830A30)
+
+![I am GitHub Readme Generator's creator](https://scontent.fdac175-1.fna.fbcdn.net/v/t39.30808-6/472713126_569064776088845_7285508421389878265_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=qcbk1qBQ1ScQ7kNvgEDtwvq&_nc_zt=23&_nc_ht=scontent.fdac175-1.fna&_nc_gid=AIDYZkGeGfyokUJsKsmFcX5&oh=00_AYBS1t2CV2UPbzOovCXPRssZFA9mnOLAaVnmEac8W4iu-A&oe=67830111)
 
